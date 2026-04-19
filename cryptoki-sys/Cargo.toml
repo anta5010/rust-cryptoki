@@ -1,6 +1,6 @@
 [package]
 name = "cryptoki-sys"
-version = "0.1.7"
+version = "0.1.8"
 authors = ["Contributors to the Parsec project"]
 edition = '2018'
 description = "FFI wrapper around the PKCS #11 API"
@@ -13,7 +13,7 @@ documentation = "https://docs.rs/crate/cryptoki-sys"
 rust-version = "1.66.0"
 
 [build-dependencies]
-bindgen = { version = "0.66.1", optional = true }
+bindgen = { version = "0.69.5", optional = true }
 
 [dependencies]
 libloading = "0.7.0"
